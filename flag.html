@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Indian National Flag</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+        }
+
+        .flag {
+            width: 300px;
+            height: 200px;
+            border: 2px solid white;
+            display: inline-block;
+        }
+
+        .top {
+            background-color: orange;
+            height: 33.33%;
+        }
+
+        .middle {
+            background-color: white;
+            height: 33.33%;
+            position: relative;
+        }
+
+        .bottom {
+            background-color: green;
+            height: 33.33%;
+        }
+
+        .ashoka-chakra {
+            background-color: blue;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <h1>Indian National Flag</h1>
+    <div class="flag">
+        <div class="top"></div>
+        <div class="middle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ashoka_Chakra.svg" alt=" "
+                class="ashoka-chakra">
+        </div>
+        <div class="bottom"></div>
+    </div>
+
 </body>
 </html>
